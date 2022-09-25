@@ -1,0 +1,213 @@
+body {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p {
+    color: #4d4b4b;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 1.5% 15%;
+}
+
+/* Title Section */
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 7%;
+}
+
+.big-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.left-column {
+    text-align: left;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image-container {
+    position: relative;
+}
+
+.title-image {
+    width: 55%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #EF8172;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.tests {
+    padding: 0 11rem;
+}
+
+.testimonial-text {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+    padding: 4rem 0 4rem;
+}
+
+.feat {
+    width: 60%;
+    margin: auto;
+    color: #4d4b4b;
+    margin-bottom: 4rem;
+}
+
+.features-icons {
+    font-size: 300%;
+    margin-bottom: 2rem;
+    color: #EF8172;
+}
+
+.features-icons:hover {
+    color: #FF4C68;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #EF8172;
+    padding-bottom: 5%;
+}
+
+.press-img {
+    width: 13%;
+    margin: 20px 20px 15px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.card-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 5rem 0;
+}
+
+.footer-icons {
+    margin: 0 0.5% 0;
+}
+
+.footer-btn {
+    margin: 0 2% 6%;
+}
+
+.footer-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 1.5;
+    width: 50%;
+    margin: auto;
+    padding: 5rem 0 3rem;
+}
+
+.footer-para {
+    margin: 1rem;
+}
+
+/* Navbar in Title Section */
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1260px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+    }
+
+    .footer-heading {
+        font-size: 1.5rem;
+    }
+}
